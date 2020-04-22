@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <Folder Include="EnitiyConfig\" />
+    <Folder Include="Migrations\" />
     <Folder Include="Repository\" />
   </ItemGroup>
 
