@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SGC.ApplicationCore", "src\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SGC.Infrastructure", "src\SGC.Infrastructure\SGC.Infrastructure.csproj", "{FA8CB8C1-EE27-4726-A921-5080A86B293E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SGC.UI.Web", "src\SGC.UI.Web\SGC.UI.Web.csproj", "{B6557CDE-502B-43D1-A70B-EA422AEB4DEA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{FA8CB8C1-EE27-4726-A921-5080A86B293E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA8CB8C1-EE27-4726-A921-5080A86B293E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA8CB8C1-EE27-4726-A921-5080A86B293E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6557CDE-502B-43D1-A70B-EA422AEB4DEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6557CDE-502B-43D1-A70B-EA422AEB4DEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6557CDE-502B-43D1-A70B-EA422AEB4DEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6557CDE-502B-43D1-A70B-EA422AEB4DEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -34,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{20296A13-5C57-4056-A62D-AAC77F342632} = {FD544668-1107-49AE-B5F6-27E561EDF0D5}
 		{FA8CB8C1-EE27-4726-A921-5080A86B293E} = {34CB2CE6-249D-469E-907E-F78EBBA9E4FB}
+		{B6557CDE-502B-43D1-A70B-EA422AEB4DEA} = {FDA88DE9-64F1-4A7A-A76E-E85771DC5113}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3F8FB7DB-9862-480D-9EC6-8A9CBF7CE8DF}
