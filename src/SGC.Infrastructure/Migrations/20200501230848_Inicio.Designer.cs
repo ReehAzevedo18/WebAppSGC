@@ -10,8 +10,8 @@ using SGC.Infrastructure.Data;
 namespace SGC.Infrastructure.Migrations
 {
     [DbContext(typeof(ClienteContext))]
-    [Migration("20200422024650_Inicial")]
-    partial class Inicial
+    [Migration("20200501230848_Inicio")]
+    partial class Inicio
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

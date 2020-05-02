@@ -27,6 +27,12 @@ namespace SGC.Infrastructure.Data
             modelBuilder.Entity<Endereco>().ToTable("Endereco");
             modelBuilder.Entity<Profissao>().ToTable("Profissao");
             modelBuilder.Entity<ProfissaoCliente>().ToTable("ProfissaoCliente");
+            modelBuilder.ApplyConfiguration(new ClienteMap());
+            modelBuilder.ApplyConfiguration(new ContatoMap());
+            modelBuilder.ApplyConfiguration(new EnderecoMap());
+            modelBuilder.ApplyConfiguration(new MenuMap());
+            modelBuilder.ApplyConfiguration(new ProfissaoClienteMap());
+            modelBuilder.ApplyConfiguration(new ProfissaoMap());
 
             //Configuração para o EntityConfig
             modelBuilder.ApplyConfiguration(new ClienteMap());

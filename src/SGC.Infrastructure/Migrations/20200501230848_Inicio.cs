@@ -2,7 +2,7 @@
 
 namespace SGC.Infrastructure.Migrations
 {
-    public partial class Inicial : Migration
+    public partial class Inicio : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

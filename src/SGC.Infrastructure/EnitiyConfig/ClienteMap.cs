@@ -23,6 +23,8 @@ namespace SGC.Infrastructure.EnitiyConfig
                 .HasPrincipalKey(c => c.ClienteId)
                 .OnDelete(DeleteBehavior.Restrict); //não realizará o delete em cascata dos dados que estão na chave estrangeira
 
+
+
             //Um para um
             builder
                 .HasOne(x => x.Endereco)
